@@ -1,0 +1,25 @@
+{
+  "name": "personal-portfolio-backend",
+  "version": "0.0.1",
+  "description": "personal portfolio backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "$(npm bin)/nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "json-api-serializer": "^1.11.0",
+    "jsonapi-serializer": "^3.5.6",
+    "mongoose": "^4.13.9"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.14.11"
+  }
+}

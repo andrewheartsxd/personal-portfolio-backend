@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+      "no-console": "off",
+      "func-names": ["off"],
+      "padded-blocks": ["error", "never"],
+      "no-param-reassign": ["error", { "props": false }],
+      "no-shadow": ["error", { "allow": ["err", "data"] }],
+      "no-underscore-dangle": "off"
+    }
+}
